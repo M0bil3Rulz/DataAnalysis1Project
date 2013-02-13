@@ -45,5 +45,4 @@ plot( ficoScoreFrame$lower_bound_score, ficoScoreFrame$count, pch=19, col="blue"
       ylab="Sum of FICO Scores In Range", lwd=5, main = "FICO Scores", 
       xlim = range( ficoScoreFrame$lower_bound_score,  ficoScoreFrame$lower_bound_score[nrow(ficoScoreFrame)] ) )
 
-#Test
 #Interest.rate
